@@ -117,6 +117,18 @@ body {
     padding-right: 50px;
 }
 
+#siteDescription{
+  font-weight: bold;
+}
+
+#samDiv{
+  margin-left: 10px;
+}
+
+#beeDiv{
+  margin-left: 10px;
+}
+
 #bootScroll{
   width: 600px;
   height: 500px;
