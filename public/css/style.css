@@ -117,17 +117,21 @@ body {
     padding-right: 50px;
 }
 
-#myCarousel {
-    margin-top: 20px;
-    margin-bottom: 200px;
+#bootScroll{
+  width: 100px;
+  height: 100px;
 }
-
-.leftcarousel-control {
-    opacity: 0;
+#cubeNews{
+  width: 100px;
+  height: 100px;
 }
-
-.rightcarousel-control {
-    opacity: 0;
+#gbeePage{
+  width: 100px;
+  height: 100px;
+}
+#mindChildren{
+  width: 100px;
+  height: 100px;
 }
 
 #contactForm {
