@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#content {
+    padding-bottom: 100px;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    color: #d4af37;
+    text-align: center;
+    line-height: 4em;
+}
+
+.mainRow {
+    margin-top: 50px;
+}
+
+#linkedinIcon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#githubIcon {
+    width: 50px;
+    height: 50px;
+}
+
+#footerText {
+    color: #d4af37;
+    text-align: center;
+    line-height: 4em;
+}
+
+#carouselCaption {
+    color: #ffff00;
+    text-shadow: 2px 2px #0000ff;
+    font-size: 40px;
+}
+
+#mainPageImage {
+    margin-top: 150px;
+}
+
+#mainPageImage2 {
+    margin-bottom: 100px;
+}
+
+#profilePanel {
+    margin-top: 10px;
+}
+
+#landingPageImage {
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#nameFont {
+    font-family: 'Pacifico', cursive;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#occupationFont {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+#contactMe {
+    margin-top: 50px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#portfolioFont {
+    margin-top: 50px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#aboutMe {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#thankYou {
+    margin-top: 200px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#landingButton {
+    background-color: #000 !important;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#myCarousel {
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.leftcarousel-control {
+    opacity: 0;
+}
+
+.rightcarousel-control {
+    opacity: 0;
+}
+
+#contactForm {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.typed-cursor {
+    opacity: 0;
+    -webkit-animation: blink 0s infinite;
+    -moz-animation: blink 0s infinite;
+    animation: blink 0s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
