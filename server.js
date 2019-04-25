@@ -35,8 +35,8 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
-app.get('/home', function(req, res) {
-    res.render('home');
+app.get('/index', function(req, res) {
+    res.render('index');
 });
 
 app.get('/portfolio', function(req, res) {
