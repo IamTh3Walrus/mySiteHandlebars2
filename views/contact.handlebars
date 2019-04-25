@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/form-elements.css">
     <link href="//fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen Doe</title>
 </head>
@@ -17,7 +17,7 @@
         <div id="content">
             <div class="container">
                 <ul class="nav nav-pills pull-right" role="tablist">
-                    <li><a href="home">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="portfolio">Portfolio</a></li>
                     <li class="active"><a href="contact">Contact</a></li>
                 </ul>
@@ -27,14 +27,14 @@
                         <div class="contactUs">
                         <form class="formContactUs" role="form"
                           action="/process?form=contactus" method="POST">
-                         
+
                           <input type="hidden" name="_csrf" value="{{csrf}}">
-                         
+
                           <div class="form-group">
                             <label class="sr-only" for="contact-email">Email</label>
                             <input type="text" name="email" placeholder="Enter your email" class="contact-email form-control" id="contact-email">
                         </div> <!-- End of form-group -->
-                         
+
                           <div class="form-group">
                             <label for="fieldQues" class="col-sm-2 control-label">
                             </label>
@@ -45,7 +45,7 @@
 
                             </div>
                           </div> <!-- End of form-group -->
-                         
+
                           <button type="submit" class="btn">Send message</button> <!-- End of form-group -->
                         </form>
                         </div>
